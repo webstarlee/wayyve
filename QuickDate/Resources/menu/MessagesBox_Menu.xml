@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item android:id="@+id/menu_phoneCall"
+        android:icon="@drawable/ic_action_telephone"
+        app:showAsAction="ifRoom|withText"/>
+
+  <item android:id="@+id/menu_videoCall"
+        android:title="@string/Lbl_Video_call"
+        android:icon="@drawable/ic_action_video"
+        app:showAsAction="ifRoom"/>
+ 
+  <item android:id="@+id/menu_view_profile"
+        android:title="@string/Lbl_ViewProfile"
+        app:showAsAction="never"/>
+
+  <item android:id="@+id/menu_block"
+        android:title="@string/Lbl_Block"
+        app:showAsAction="never"/>
+
+  <item android:id="@+id/menu_clear_chat"
+        android:title="@string/Lbl_Clear_chat"
+        app:showAsAction="never"/>
+
+</menu>

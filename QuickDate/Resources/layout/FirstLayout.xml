@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_halfcircle" />
+    <TextView
+        android:id="@+id/tv_signin_wtnione"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Lbl_FirstHeader"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginStart="40dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:layout_marginBottom="2dp" />
+    <RelativeLayout
+        android:id="@+id/imagelayout"
+        android:paddingTop="90dp"
+        android:layout_below="@+id/headtitle"
+        android:layout_marginTop="9dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/Iconimage"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:src="@drawable/shape_circle_white"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="0dp"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:id="@+id/Dialog_heart"
+            android:layout_width="29dp"
+            android:layout_height="29dp"
+            android:alpha=".80"
+            android:rotation="8"
+            android:src="@drawable/Dialog_heart"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_toStartOf="@+id/Iconimage"
+            android:layout_marginStart="2dp"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:id="@+id/Iconimage2"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:src="@drawable/shape_circle_white"
+            android:layout_below="@+id/headtitle"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="60dp"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:id="@+id/Dialog_heart"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:alpha=".75"
+            android:src="@drawable/Dialog_heart"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="45dp"
+            android:layout_toEndOf="@+id/Iconimage2"
+            android:layout_marginStart="2dp"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:id="@+id/Dialog_heart"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:alpha=".75"
+            android:src="@drawable/Dialog_heart"
+            android:layout_marginEnd="0dp"
+            android:layout_marginTop="45dp"
+            android:tint="#ffffff"
+            android:layout_alignBottom="@+id/Iconimage2"
+            android:layout_marginStart="-86dp"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+    <View
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/shape_circle_white" />
+    <ImageView
+        android:id="@+id/logoimage"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="117dp"
+        android:layout_centerInParent="true"
+        android:tint="#8b21ba"
+        android:src="@drawable/Dialog_heart"
+        android:scaleType="centerCrop" />
+   
+	
+	<Button
+       android:layout_above="@+id/LoginButton"
+        android:background="@drawable/shape_radius_gradient_btn"
+        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="66dp"
+        android:padding="12dp"
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:text="@string/Lbl_Register"
+        android:textColor="#ffff"
+        android:textSize="14sp"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/RegisterButton" />
+    
+	<Button
+        android:layout_above="@+id/tv_signin_wtnione"
+        android:background="@drawable/shape_radius_gradient_btn"
+        android:layout_height="45dp"
+        android:layout_width="match_parent"
+        android:layout_marginTop="16dp"
+        android:padding="12dp"
+	
+        style="@style/Base.TextAppearance.AppCompat.Body1"
+        android:text="@string/Lbl_Login"
+        android:textColor="#fff"
+        android:textSize="14sp"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:layout_marginEnd="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:id="@+id/LoginButton" />
+
+    <TextView
+       
+        android:id="@+id/tv_signin_wtnione"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Lbl_FirstFooter"
+        android:textColor="#888"
+        android:gravity="center"
+        android:layout_marginEnd="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:layout_centerHorizontal="true"
+		android:layout_alignParentBottom="true"
+        android:textSize="14sp"
+        android:layout_marginBottom="45dp" />
+
+	
+	 
+</RelativeLayout>

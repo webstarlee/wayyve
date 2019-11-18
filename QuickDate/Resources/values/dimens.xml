@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+  <dimen name="fab_margin">16dp</dimen>
+  <dimen name="padding_list_row">5dp</dimen>
+  <dimen name="messages_padding_left">72dp</dimen>
+  <dimen name="icon_width_height">40dp</dimen>
+  <dimen name="msg_text_primary">16sp</dimen>
+  <dimen name="msg_text_secondary">14sp</dimen>
+  <dimen name="icon_star">25dp</dimen>
+  <dimen name="icon_text">22dp</dimen>
+  <dimen name="timestamp">12dp</dimen>
+  <dimen name="space">12dp</dimen>
+  <dimen name="circle">250dp</dimen>
+
+  <dimen name="list_item_container_padding">16dp</dimen>
+  <dimen name="list_item_container_padding_small">8dp</dimen>
+
+  <dimen name="list_item_avatar_size_small">24dp</dimen>
+  <dimen name="list_item_avatar_size">40dp</dimen>
+  <dimen name="list_item_avatar_size_large">56dp</dimen>
+  <dimen name="list_item_avatar_size_xlarge">72dp</dimen>
+  <dimen name="list_item_text_margin">3dp</dimen>
+ 
+</resources>

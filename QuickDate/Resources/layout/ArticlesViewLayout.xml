@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical">
+
+	<android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:theme="@style/ToolbarTheme"
+			app:layout_scrollFlags="scroll|enterAlways"
+            app:titleTextAppearance="@style/Toolbar.TitleText"
+            android:background="@drawable/linear_gradient_drawable"
+            android:elevation="2dp">  
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/nested_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:clipToPadding="false"
+        android:scrollbars="none"
+        android:scrollingCache="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <TextView
+					android:id="@+id/title"
+					android:textSize="19sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="3"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#263238"
+                    android:textStyle="bold" />
+				 
+            </LinearLayout>
+
+            <ImageView
+				android:id="@+id/imageBlog"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/imageplacholder"
+                android:visibility="visible" />
+			 
+			<WebView
+               android:layout_width="match_parent"
+				android:padding="10dp"
+               android:layout_height="wrap_content"
+               android:id="@+id/LocalWebView" />
+			 
+            <!--likes layout-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="15dp"
+                android:paddingEnd="15dp">
+
+                <TextView
+                    android:id="@+id/views"
+					android:textSize="15sp"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                    android:textColor="#37474F" />
+
+                <View
+                    android:layout_width="15dp"
+                    android:layout_height="wrap_content" />
+
+                <ImageButton
+                    android:id="@+id/more"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/selectableItemBackgroundBorderless"
+                    android:tint="#37474F"
+                    app:srcCompat="@xml/ic_more_vert" />
+
+            </LinearLayout>
+			 
+			  <View
+				android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView> 
+	 
+</android.support.design.widget.CoordinatorLayout> 

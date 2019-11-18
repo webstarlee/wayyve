@@ -1,0 +1,1 @@
+﻿MONO_GC_PARAMS=soft-heap-limit=1G

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="90dp"
+    android:background="#ffff">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="1dp"
+        android:paddingEnd="3dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="2dp"
+        android:layout_alignParentStart="true"
+        android:foregroundGravity="center_horizontal"
+        android:gravity="center_horizontal">
+        <RelativeLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.qintong.library.InsLoadingView
+                android:layout_centerInParent="true"
+                android:id="@+id/profile_indicator"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:layout_margin="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/no_profile_image_circle"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="0dp" />
+            <!--<FFImageLoading.Views.ImageViewAsync
+				android:id="@+id/userProfileImage"
+				android:scaleType="centerCrop"
+				android:layout_width="53dp"
+				android:layout_height="53dp"
+				android:layout_marginStart="9.4dp"
+				android:foregroundGravity="center_horizontal"
+				android:layout_centerVertical="true"
+				android:src="@drawable/no_profile_image_circle" />-->
+            <View
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:foregroundGravity="center_horizontal"
+                android:id="@+id/IconCircle"
+                android:layout_alignBottom="@id/profile_indicator"
+                android:layout_above="@id/profile_indicator"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/circlegradient" />
+            <!--<refractored.controls.CircleImageView
+            android:id="@+id/IconCircle"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#ffffffff"
+            android:layout_alignBottom="@id/userProfileImage"
+            android:layout_marginBottom="0dp"
+           
+            android:layout_marginStart="37dp"
+            android:src="@drawable/Blue_Color"
+            android:layout_above="@id/userProfileImage" />-->
+            <TextView
+                android:id="@+id/IconStory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/profile_indicator"
+                android:layout_marginBottom="1dp"
+                android:text="+"
+                android:textSize="14sp"
+                android:textColor="#ffffff"
+                android:layout_marginStart="45dp"
+                android:layout_above="@id/profile_indicator" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/Txt_Username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textDark_color"
+            android:textSize="11dp"
+            android:layout_marginTop="0dp"
+            android:text="---------"
+            android:layout_alignParentStart="true"
+            android:gravity="start"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+</RelativeLayout>

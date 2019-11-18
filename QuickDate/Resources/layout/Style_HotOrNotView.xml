@@ -1,0 +1,80 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:padding="10dp"
+    android:layout_gravity="top|center"
+    android:gravity="top|center"
+    android:background="?attr/selectableItemBackground">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:orientation="vertical"
+        app:cardBackgroundColor="#ffff"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="2dp"> 
+        <ImageView
+        android:id="@+id/imgUser"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foreground="#1A000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/imageplacholder" /> 
+        <RelativeLayout
+            android:id="@+id/buttonLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:focusable="false"
+            android:layout_gravity="bottom|center"
+            android:gravity="bottom|center">
+            <at.markushi.ui.CircleButton
+                android:id="@+id/closebutton1"
+                android:layout_width="75dip"
+                android:layout_height="75dip"
+                app:cb_color="#685EF6"
+                app:cb_pressedRingWidth="8dip"
+                android:src="@drawable/ic_action_dislike"
+                android:layout_alignParentBottom="false"
+                android:layout_alignParentEnd="false"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:tint="#fff"
+                android:elevation="10dp"
+                android:fadeScrollbars="false"
+                android:clickable="false"
+                android:layout_centerHorizontal="true" />
+            <at.markushi.ui.CircleButton
+                android:id="@+id/likebutton2"
+                android:layout_toEndOf="@+id/closebutton1"
+                android:layout_width="75dip"
+                android:layout_height="75dip"
+                app:cb_color="#f25e4e"
+                android:elevation="10dp"
+                app:cb_pressedRingWidth="8dip"
+                android:src="@drawable/ic_tab_trending"
+                android:layout_marginEnd="0dp"
+                android:layout_marginTop="10dp"
+                android:tint="#fff"
+                android:foregroundGravity="right" />
+        </RelativeLayout>
+        <RelativeLayout
+          android:layout_width="match_parent"
+          android:background="#80ffffff"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+          <TextView
+            android:id="@+id/txtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="@dimen/msg_text_secondary"
+            android:text="Begovsky , 22"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#000" /> 
+        </RelativeLayout> 
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nested_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f8f8f8"
+            android:clipToPadding="false"
+            android:scrollbars="none"
+            android:scrollingCache="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="370dp"
+                    android:background="@drawable/shape_halfcircle" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:background="@null"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/mainTitelText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffff"
+                        android:background="@null"
+                        android:gravity="center"
+                        android:textAlignment="center"
+                        android:layout_marginTop="8dp"
+                        android:text="Your QuickDate Credits balance"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:textSize="17sp"
+                        android:layout_marginBottom="0dp" />
+                    <TextView
+                        android:id="@+id/mainText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#ffff"
+                        android:gravity="center"
+                        android:background="@null"
+                        android:textAlignment="center"
+                        android:layout_marginTop="15dp"
+                        android:textStyle="bold"
+                        android:text="200 Credits"
+                        android:layout_marginStart="10dp"
+                        android:textSize="24sp"
+                        android:layout_marginBottom="0dp" />
+                    <RelativeLayout
+                        android:background="@null"
+                        android:layout_marginEnd="8dp"
+                        android:layout_marginStart="8dp"
+                        android:id="@+id/lll"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="2dp"
+                        android:layout_height="wrap_content">
+                        <android.support.v4.view.ViewPager
+                            android:id="@+id/viewPager"
+                            android:background="@null"
+                            android:layout_width="match_parent"
+                            android:layout_height="147dp" />
+                        <me.relex.circleindicator.CircleIndicator
+                            android:id="@+id/indicator"
+                            android:background="@null"
+                            android:layout_below="@+id/viewPager"
+                            android:layout_width="match_parent"
+                            android:layout_height="10dp"
+                            android:gravity="bottom"
+                            android:layout_marginTop="5dp"
+                            app:ci_drawable="@drawable/white_radius"
+                            app:ci_drawable_unselected="@drawable/grey_radius" />
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#777"
+                        android:gravity="start"
+                        android:background="@null"
+                        android:textAlignment="textStart"
+                        android:layout_marginTop="25dp"
+                        android:text="@string/Btn_BuyCredits"
+                        android:layout_marginStart="10dp"
+                        android:textSize="14sp"
+                        android:layout_marginBottom="0dp" />
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/recyler"
+                        android:layout_marginTop="8dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="vertical"
+                        android:background="@null"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:paddingBottom="8dp" />
+                    <FrameLayout
+                        android:id="@+id/confirm_wallet_holder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <Button
+                        android:id="@+id/skippButton"
+                        android:background="@drawable/shape_radius_gradient_btn"
+                        android:layout_height="42dp"
+                        android:layout_width="match_parent"
+                        android:padding="5dp"
+                        style="@style/Base.TextAppearance.AppCompat.Body1"
+                        android:text="@string/Btn_SkipCredits"
+                        android:textColor="#fff"
+                        android:textSize="15sp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:clickable="true"
+                        android:textAllCaps="false"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:elevation="2dp" />
+                    <TextView
+                        android:id="@+id/TermsText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#666"
+                        android:gravity="center"
+                        android:background="@null"
+                        android:textAlignment="center"
+                        android:layout_marginTop="25dp"
+                        android:text="@string/Lbl_TermsAndConditions"
+                        android:layout_marginStart="10dp"
+                        android:textSize="14sp"
+                        android:layout_marginBottom="0dp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

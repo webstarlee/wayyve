@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!--Notes :-->
+  <!-- - If the text is marked ' Please replace with the symbol &apos; and add at the beginning and end of the sentence "
+        Example: Let's get started! >> "Let&apos;s get started!"  -->
+  <!-- - If the text is marked & Please replace with the symbol &amp; 
+        Example. Movies & Animation >> Movies &amp; Animation   -->
+
+  <!--supportsRtl-->
+  <string name="Is_arabic">false</string>
+
+  <!--most used-->
+  <string name="video">Video</string>
+  <string name="audio">Audio</string>
+  <string name="image">İmge</string>
+  <string name="text">Metin</string>
+  <string name="retry">Tekrar Dene</string>
+  <string name="Lbl_Empty">Boş</string>
+  <string name="Lbl_Loading">Yükleniyor</string>
+  <string name="Lbl_Comment">Yorum</string>
+  <string name="Lbl_Videos">Videolar</string>
+  <string name="Lbl_Views">Görüntülemeler</string>
+  <string name="Lbl_aboutMe">Hakkımda</string>
+  <string name="Lbl_About">Hakkında</string>
+  <string name="Lbl_Error">Hata</string>
+  <string name="Lbl_Ok">Tamam</string>
+  <string name="Lbl_Security">Güvenlik</string>
+  <string name="Lbl_Done">Yapıldı</string>
+  <string name="Lbl_Deleted">Silindi</string>
+  <string name="Lbl_Delete">Sil</string>
+  <string name="Lbl_Submit">Gir</string>
+  <string name="Lbl_Cancel">İptal Et</string>
+  <string name="Lbl_Yes">Evet</string>
+  <string name="Lbl_No">Hayır</string>
+  <string name="Lbl_Warning">Uyarı</string>
+  <string name="Lbl_Changed">Değiştirildi</string>
+  <string name="Lbl_Crop">Kes</string>
+  <string name="Lbl_Report">Rapor Et</string>
+  <string name="Lbl_Quality">Kalite</string>
+  <string name="Lbl_Help_feedback">Yardım &amp; Geri Bildirim</string>
+  <string name="Lbl_Make_video_offline">Çevrimdışı Video Yap</string>
+  <string name="Lbl_Share">Paylaş</string>
+  <string name="Lbl_InviteSMSText_1">Merhaba şurada buluşalım</string>
+  <string name="Lbl_InviteSMSText_2">akıllı telefonunuz için</string>
+  <string name="Lbl_Success">Başarılı</string>
+  <string name="Lbl_Offline_Mode">Çevrimdışı Mod</string>
+  <string name="Lbl_Cover">Kapla</string>
+  <string name="Lbl_Avatar">Avatar</string>
+  <string name="Lbl_Close">Kapat</string>
+  <string name="Lbl_With">ile</string>
+  <string name="Lbl_At">Şurada</string>
+  <string name="Lbl_SelectPictures">Resimleri Seç</string>
+  <string name="Lbl_SelectImage">İmge Seç</string>
+  <string name="Lbl_SelectFile">Dosya Seç</string>
+  <string name="Lbl_SelectGif">Gif Seç</string>
+  <string name="Lbl_Unknown">Bilinmeyen</string>
+  <string name="Lbl_ReadMore">Daha Fazla Oku</string>
+  <string name="Lbl_ReadLess">Daha Az Oku</string>
+  <string name="Lbl_Description">Tanım</string>
+  <string name="Lbl_Published_on">Tarihinde Yayınlandı</string>
+  <string name="Lbl_I_agree_to_the">Kabul Ediyorum</string>
+  <string name="Lbl_Last_seen">Son Görülen</string>
+  <string name="Lbl_Create_Account">Hesap Oluştur</string>
+  <string name="Lbl_SignUp">Kaydol</string>
+  <string name="Lbl_Like">Beğen</string>
+  <string name="Lbl_Create">Oluştur</string>
+  <string name="Lbl_Send">Gönder</string>
+  <string name="Lbl_Male">Erkek</string>
+  <string name="Lbl_Female">Kadın</string>
+  <string name="Lbl_Comments">Yorumlar</string>
+  <string name="Lbl_Save">Kaydet</string>
+  <string name="Lbl_Country">Ülke</string>
+  <string name="Lbl_Settings">Ayarlar</string>
+  <string name="Lbl_Send_to">Gönder</string>
+  <string name="Lbl_Copy">Kopyala</string>
+  <string name="Lbl_Type">Yaz</string>
+  <string name="Lbl_Remember">Hatırla</string>
+  <string name="Lbl_Online">Çevrimiçi</string>
+  <!--===============================================================-->
+
+  <!-- First Page-->
+  <string name="Lbl_FirstHeader">Birisini beğenmek için sağa kaydır ve her ikiniz de birbirinizi beğenirseniz? Bu bir eşleşmedir.</string>
+  <string name="Lbl_FirstFooter">Yakınlarındaki kişilerle flört et, sohbet et ve tanış.</string>
+  <!--===============================================================-->
+
+  <!--Login && Register -->
+  <string name="Lbl_FirstName">İsim</string>
+  <string name="Lbl_LastName">Soyisim</string>
+  <string name="Lbl_Username">Kullanıcı Adı</string>
+  <string name="Lbl_Email">Eposta</string>
+  <string name="Lbl_Login">Giriş Yap</string>
+  <string name="Lbl_Register">Kaydol</string>
+  <string name="Lbl_SignIn">Giriş Yap</string>
+  <string name="Lbl_DontHaveAnAccount">"Bir hesabınız yok mu?"</string>
+  <string name="Lbl_Or">VEYA</string>
+  <string name="Lbl_Please_write_your_email">Lütfen eposta adresinizi yazın</string>
+  <string name="Lbl_Null_Data_User">Boş veri kullanıcısı</string>
+  <string name="Lbl_Create_An_Account">Bir hesap oluştur</string>
+  <string name="Lbl_By_registering_you_agree_to_our">Kayıt olarak</string>
+  <string name="Lbl_Terms_of_service">Hizmet Koşullarımızı kabul etmiş olursunuz</string>
+  <string name="Lbl_Already_Have_an_Account">Bir hesabınız var mı</string>
+  <string name="Lbl_Error_Register_password">Register Not Correct, error Password</string>
+  <string name="Lbl_Error_Login">Giriş Doğru Değil, hatalı Kullanıcı İsmi ya da Şifre</string>
+  <!--===============================================================-->
+
+  <!-- Password-->
+  <string name="Lbl_Password">Şifre</string>
+  <string name="Lbl_ConfirmPassword">Şifreyi Onaylayın</string>
+  <string name="Lbl_Forget_password">Şifremi Unuttum</string>
+  <string name="Lbl_Forgot_your_password">Şifrenizi mi unuttunuz?</string>
+  <string name="Lbl_Forgot_your_password_DontWorry">"Endişelenmeyin eposta adresinizi buraya yazın ve sizin için sizin için kurtaracağız."</string>
+  <string name="Lbl_Change_Password">Şifre Değiştiri</string>
+  <string name="Lbl_Current_Password">Mevcut Şifre</string>
+  <string name="Lbl_New_Password">Yeni şifre</string>
+  <string name="Lbl_Repeat_password">Şifreyi tekrar edin</string>
+  <string name="Lbl_Your_password_dont_match">Şifreniz eşleşmiyor</string>
+  <string name="Lbl_Enter_Password">Şifrenizi buraya girin</string>
+  <string name="Lbl_Change_your_password">Şifrenizi değiştirin</string>
+  <string name="Lbl_Please_enter_your_email_address">Lütfen eposta adresinizi buraya girin</string>
+  <string name="Lbl_We_will_send_you_link_to_reset_password">Şifrenizi sıfırlamanız için size bir link göndereceğiz.</string>
+  <string name="Lbl_If_you_forgot_your_password">Eğer şifrenizi unuttuysanız, buradan sıfırlayabilirsiniz.</string>
+  <string name="Lbl_Please_confirm_your_password">Hata, lütfen şifrenizi doğrulayın</string>
+  <!--===============================================================-->
+
+  <!--WalkTroutPage-->
+  <string name="Lbl_FinishButton_WalkTroutPage">Başlayın</string>
+  <string name="Lbl_Title_page1">Kartları kaydırın</string>
+  <string name="Lbl_Description_page1">Eğer birini beğendiyseniz veya beğenmediyseniz kartları sağa ya da sola kaydırın</string>
+  <string name="Lbl_Title_page2">Yakınlarda Ara</string>
+  <string name="Lbl_Description_page2">Yakınlardaki yalnız kişilere bağlanın; Çevrimiçi Randevu Maceranıza Başlayın!</string>
+  <string name="Lbl_Title_page3">Sohbet</string>
+  <string name="Lbl_Description_page3">Kendiniz gibi insanlara bağlanın ve aşkınıza karşılık bulun</string>
+  <!--===============================================================-->
+
+  <!--Profile-->
+  <string name="Lbl_MyProfile">Profilim</string>
+  <string name="Lbl_Profile">Profil</string>
+  <string name="Lbl_Interest">İlgi Alanı</string>
+  <string name="Lbl_Interests">İlgi Alanları</string>
+  <string name="Lbl_DefaultAbout">Merhaba ben de kullanıyorum</string>
+  <string name="Lbl_CopeLinkToProfile">Profil Linkini kopyalayın</string>
+  <string name="Lbl_EnterTextInterest">Bir etiket girin ve ardından basın,</string>
+  <string name="Lbl_Cm">cm</string>
+  <string name="Lbl_BodyType">Vücut Türü</string>
+  <string name="Lbl_ChooseHairColor">Saç renginizi seçin</string>
+  <string name="Lbl_ChooseWorkStatus">Çalışma durumunuzu seçin</string>
+  <string name="Lbl_ChooseRelationshipStatus">İlişki durumunuzu seçin</string>
+  <string name="Lbl_ChooseLanguage">Tercih ettiğiniz dili seçin</string>
+  <string name="Lbl_PhoneNumber">Telefon Numarası</string>
+  <string name="Lbl_ChooseYourCountry">Ülkenizi seçin</string>
+
+  <string name="Lbl_FavoriteInfo">Favori Bilgisi</string>
+  <string name="Lbl_Music">Müzik</string>
+  <string name="Lbl_Dish">Yemek</string>
+  <string name="Lbl_Song">Şarkı</string>
+  <string name="Lbl_Hobby">Hobi</string>
+  <string name="Lbl_City">Şehir</string>
+  <string name="Lbl_Sport">Spor</string>
+  <string name="Lbl_Book">Kitap</string>
+  <string name="Lbl_Movie">Film</string>
+  <string name="Lbl_Color">Renk</string>
+  <string name="Lbl_TvShow">Tv Programı</string>
+
+  <string name="Lbl_LifeStyleInfo">Hayat Tarzı Bilgisi</string>
+  <string name="Lbl_ILiveWith">İle Yaşıyorum</string>
+  <string name="Lbl_LiveWith">İle Yaşıyorum</string>
+  <string name="Lbl_Car">Araba</string>
+  <string name="Lbl_Religion">Din</string>
+  <string name="Lbl_Smoke">Sigara</string>
+  <string name="Lbl_Drink">İçki</string>
+  <string name="Lbl_Travel">Seyahat</string>
+
+  <string name="Lbl_EditLooksInfo">Görünüş Bilgisini Düzenleyin</string>
+  <string name="Lbl_Ethnicity">Köken</string>
+  <string name="Lbl_Body">Vücut</string>
+  <string name="Lbl_Height">Boy</string>
+  <string name="Lbl_HairColor">Saç Rengi</string>
+
+  <string name="Lbl_PersonalityInfo">Kişilik Bilgisi</string>
+  <string name="Lbl_Character">Karakter</string>
+  <string name="Lbl_Pets">Evcil Hayvan</string>
+  <string name="Lbl_Friends">Arkadaşlar</string>
+  <string name="Lbl_Children">Çocuklar</string>
+
+  <string name="Lbl_EditProfileInfo">Profil Bilgisini Düzenleyin</string>
+  <string name="Lbl_Birthday">Doğum Günü</string>
+  <string name="Lbl_Language">Dil</string>
+  <string name="Lbl_Relationship">İlişki</string>
+  <string name="Lbl_WorkStatus">Çalışma Durumu</string>
+  <string name="Lbl_Education">Eğitim</string>
+  <string name="Lbl_EducationLevel">Eğitim Düzeyi</string>
+
+  <string name="Lbl_Upgrade">Yükselt</string>
+  <string name="Lbl_BoostMe">Hızlandır</string>
+  <string name="Lbl_EditProfile">Profili Düzenleyin</string>
+  <string name="Lbl_NeedHelp">Yardıma mı ihtiyacınız var?</string>
+  <string name="Lbl_ContactUs_Privacy">sss, bizimle irtibata geçin, gizlilik</string>
+  <string name="Lbl_YourBoostExpireInMinutes">Hızlandırmanız dakika sonra sona erecek</string>
+  <!--===============================================================-->
+
+  <!--Edit My Profile-->
+  <string name="Lbl_ProfileCompletion">Profil Tamamlama</string>
+  <string name="Lbl_ProfileInfo">Profil Bilgisi</string>
+  <string name="Lbl_AddWordsAbout">Kendiniz hakkında birkaç kelime ekleyin</string>
+  <string name="Lbl_Name">İsim</string>
+  <string name="Lbl_Gender">Cinsiyet</string>
+  <string name="Lbl_PreferredLanguage">Tercih Edilen Dil</string>
+  <string name="Lbl_RelationshipStatus">İlişki Durumu</string>
+  <string name="Lbl_Looks">Görünüşler</string>
+  <string name="Lbl_Personality">Kişilik</string>
+  <string name="Lbl_Lifestyle">Hayat Tarzı</string>
+  <string name="Lbl_Favourites">Favoriler</string>
+  <string name="Lbl_MusicGenre">Müzik Türü</string>
+  <!--===============================================================-->
+
+  <!--User Profile-->
+  <string name="Lbl_WorkAndEducation">İş ve Eğitim</string>
+  <string name="Lbl_Languages">Diller</string>
+  <string name="Lbl_SocialInfo">Sosyal Bilgi</string>
+  <string name="Lbl_Gifts">Hediyeler</string>
+  <string name="Lbl_SendGiftsAndChat">Bir hediye gönderin ve sohbete hemen başlayın</string>
+  <string name="Lbl_SendGifts">Hediye Gönder</string>
+  <string name="Lbl_IAm">"Ben"</string>
+  <string name="Lbl_IAm_A">"Ben bir"</string>
+  <string name="Lbl_person">kişi</string>
+  <string name="Lbl_IHave">Sahibim</string>
+  <string name="Lbl_Hair">saç</string>
+  <string name="Lbl_personAnd_IHave">kişi ve sahibim</string>
+  <string name="Lbl_My_plans_for_children">Çocuklar için planım</string>
+  <string name="Lbl_ILiveAlone">Yalnız yaşıyorum</string>
+  <string name="Lbl_ILive">Yaşıyorum</string>
+  <string name="Lbl_IDontSmoke">"Sigara kullanmıyorum"</string>
+  <string name="Lbl_IDontDrink">"Alkol kullanmıyorum"</string>
+  <string name="Lbl_And">ve</string>
+  <string name="Lbl_tall">uzun boylu</string>
+  <string name="Lbl_NoDescription">Tanım Yok</string>
+  <!--===============================================================-->
+
+  <!--Time-->
+  <string name="Lbl_justNow">Hemen şimdi</string>
+  <string name="Lbl_hours">Saatler önce</string>
+  <string name="Lbl_days">Günler önce</string>
+  <string name="Lbl_month">Aylar önce</string>
+  <string name="Lbl_minutes">Dakikalar önce</string>
+  <string name="Lbl_seconds">Saniyeler önce</string>
+  <string name="Lbl_year">Yıllar önce</string>
+  <string name="Lbl_CutHours">S</string>
+  <string name="Lbl_CutDays">G</string>
+  <string name="Lbl_CutMonth">A</string>
+  <string name="Lbl_CutMinutes">Dak</string>
+  <string name="Lbl_CutSeconds">Sn</string>
+  <string name="Lbl_CutYear">Y</string>
+  <string name="Lbl_about_minute">yaklaşık bir dakika önce</string>
+  <string name="Lbl_about_hour">yaklaşık bir saat önce</string>
+  <string name="Lbl_yesterday">dün</string>
+  <string name="Lbl_about_month">yaklaşık bir ay önce</string>
+  <string name="Lbl_about_year">yaklaşık bir yıl önce</string>
+  <!--===============================================================-->
+
+  <!--Toast && Messages-->
+  <string name="Lbl_Permission_is_denied">"Üzgünüz: Şayet izin vermezsemiz eyleminizle devam edemezsiniz"</string>
+  <string name="Lbl_something_went_wrong">Bilgilerinizi kontrol edin birşeyler yanlış gitti</string>
+  <string name="Lbl_CheckYourInternetConnection">Lütfen İnternet bağlantınızı kontrol edin</string>
+  <string name="Lbl_VerificationFailed">Doğrulama başarısız oldu</string>
+  <string name="Lbl_You_will_be_logged">Şimdi çıkış yapacaksınız, daha sonra görüşmek üzere</string>
+  <string name="Lbl_Are_you_logout">Çıkış yapmak istediğinize emin misiniz?</string>
+  <string name="Lbl_Text_copied">Metin panoya kopyalandı</string>
+  <string name="Lbl_Text_report">Rapor gönderildi</string>
+  <string name="Lbl_PleaseAddPhoneNumberCorrectly">Lütfen telefon numarasını doğru bir biçimde ekleyin</string>
+  <!--===============================================================-->
+
+  <!--Error-->
+  <string name="Lbl_Error_Code">Hata Kodu</string>
+  <string name="Lbl_Please_check_your_details">Hata, lütfen bilgilerinizi kontrol edin</string>
+  <string name="Lbl_Please_enter_your_data">Hata, Lütfen verilerinizi girin</string>
+  <string name="Lbl_IsEmailValid">Hata, Lütfen eposta adresinizi eksiksiz yazın</string>
+
+  <!--Error Login-->
+  <string name="Lbl_Error_1">Kullanıcı ismi boş bırakılamaz</string>
+  <string name="Lbl_Error_2">Şifre boş bırakılamaz</string>
+  <string name="Lbl_Error_3">Oturumu kaydedemedi</string>
+  <string name="Lbl_Error_4">Kullanıcı bulunamadı</string>
+  <string name="Lbl_Error_5">Yanlış şifre</string>
+
+  <!--Error Register-->
+  <string name="Lbl_Error_6">Kullanıcı verisi ayarlanmadı</string>
+  <string name="Lbl_Error_7">Kullanıcı ismi boş bırakılamaz</string>
+  <string name="Lbl_Error_8">Kullanıcı isimi 5 / 32 karakter arasında olmalıdır</string>
+  <string name="Lbl_Error_9">Geçersiz kullanıcı ismi karakterleri</string>
+  <string name="Lbl_Error_10">Eposta boş bırakılamaz</string>
+  <string name="Lbl_Error_11">Bu eposta geçersizdir</string>
+  <string name="Lbl_Error_12">Şifre boş bırakılamaz</string>
+  <string name="Lbl_Error_13">Şifre çok kısa</string>
+  <string name="Lbl_Error_14">Kullanıcı ismi kullanılıyor</string>
+  <string name="Lbl_Error_15">Eposta adresi kullanılıyor</string>
+  <string name="Lbl_Error_16">Kayıt Başarısız oldu</string>
+  <string name="Lbl_Error_17">Doğrulama postası gönderilemedi</string>
+  <string name="Lbl_Error_18">Hata: bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin</string>
+
+  <!--Error Reset Password-->
+  <string name="Lbl_Error_21">Kullanıcı epostası gönderilmedi</string>
+  <string name="Lbl_Error_22">Eposta bulunamadı</string>
+  <!--===============================================================-->
+
+  <!--Fragment-->
+  <string name="Lbl_Notifications">Bildirimler</string>
+  <string name="Lbl_Trending">Yükselişte Olanlar</string>
+  <string name="Lbl_Search">Ara</string>
+  <string name="Lbl_More">Daha Fazla</string>
+  <string name="Lbl_Users">Kullanıcı</string>
+  <string name="Lbl_Cards">Kart</string>
+  <string name="Lbl_messages">Mesaj</string>
+  <!--===============================================================-->
+
+  <!--Tab-->
+  <string name="Lbl_Find_Match">Bir eş bulun</string>
+  <string name="Lbl_Matches">Eşler</string>
+  <string name="Lbl_Visits">Ziyaretler</string>
+  <string name="Lbl_Likes">Beğeniler</string>
+  <!--===============================================================-->
+
+  <!--Button-->
+  <string name="Btn_GetPremium">"Premium&apos;a Geçin"</string>
+  <string name="Btn_BuyCredits">Kredi Satın Alın</string>
+  <string name="Btn_SkipCredits">Kredileri Atlayın</string>
+  <string name="Btn_Continue">Devam Et</string>
+  <string name="Btn_Paypal">Paypal</string>
+  <string name="Btn_SkipPremium">"Premium&apos;u Atlayın"</string>
+  <string name="Btn_NoOtherTime">Hayır, Başka Sefere</string>
+  <string name="Btn_GooglePlay">Google Play</string>
+  <!--===============================================================-->
+
+  <!--Refresh-->
+  <string name="Lbl_PullToRefresh">Yenilemek için Çekin</string>
+  <string name="Lbl_RefreshMyNewsFeed">En son kullanıcıları güncelleyin</string>
+  <string name="Lbl_Refreshing">Yenileniyor</string>
+  <!--===============================================================-->
+
+  <!--Notifications-->
+  <string name="Lbl_VisitYou">Sizi ziyaret etti</string>
+  <string name="Lbl_LikeYou">Size beğendi</string>
+  <string name="Lbl_DislikeYou">Sizi beğenmedi</string>
+  <string name="Lbl_SendGiftToYou">Size bir hediye gönderdi</string>
+  <string name="Lbl_YouGotMatch">Yeni bir eşiniz var, görmek için tıklayın!</string>
+  <string name="Lbl_MessageNotifications">size mesaj gönderdi!</string>
+  <string name="Lbl_ApproveReceipt">Banka transferinizi onayladık</string>
+  <string name="Lbl_DisapproveReceipt">Banka transferinizi geri çevirdik, daha fazla bilgi için lütfen bizimle irtibata geçin.</string>
+  <string name="Lbl_AcceptChatRequest">mesaj talebinizi kabul etti!</string>
+  <string name="Lbl_DeclineChatRequest">mesaj talebinizi geri çevirdi!</string>
+  <!--===============================================================-->
+
+  <!--Location-->
+  <string name="Lbl_Location">Konum</string>
+  <string name="Lbl_Use_Location">Konum Kullanılsın mı?</string>
+  <string name="Lbl_GPS_is_disabled">GPS devre dışı bırakıldı.GPS devreye alınsın mı</string>
+  <string name="Lbl_Error_LocationChanged">Konumuzunu belirleyemedi. Kısa bir süre sonra tekrar deneyin.</string>
+  <string name="Lbl_AddLocation">Konum Ekle</string>
+  <!--===============================================================-->
+
+  <!--Filter-->
+  <string name="Lbl_Filter">Filtrele</string>
+  <string name="Lbl_StartTyping">Yazmaya Başlayın</string>
+  <string name="Lbl_WhoAreYouLookingFor">Kimleri arıyorsunuz?</string>
+  <string name="Lbl_Boys">Erkekler</string>
+  <string name="Lbl_Girls">Kızlar</string>
+  <string name="Lbl_Both">Her İkisi</string>
+  <string name="Lbl_Age">Yaş</string>
+  <string name="Lbl_OnlineNow">Şu anda çevrimiçi</string>
+  <string name="Lbl_ResetFilter">Filtreyi Sıfırla</string>
+  <string name="Lbl_ApplyFilter">Filtreleri Uygula</string>
+  <string name="Lbl_NearBy">Yakında</string>
+  <!--===============================================================-->
+
+  <!--Add Photo-->
+  <string name="Lbl_AddPhoto">Fotoğraf Ekle</string>
+  <string name="Lbl_Title_AddPhoto">Geri bildirim almak için bir fotoğraf ekleyin!</string>
+  <string name="Lbl_SubTitle_AddPhoto">Şu anda profiliniz kimseye ilginç gelmedi :-(</string>
+  <string name="Lbl_IWill_AddPhoto_Later">Fotoğrafı daha sonra ekleyeceğim</string>
+  <!--===============================================================-->
+
+  <!--Dialog : Gift && AddCredits -->
+  <string name="Lbl_countCartGift">"Daha fazlasını mı istiyorsunuz? Premium&apos;a geçin! YADA yeni bir etiket edinin"</string>
+  <string name="Lbl_TermsAndConditions">Koşullar ve hükümler</string>
+  <!--===============================================================-->
+
+  <!--Dialog : MatchFound -->
+  <string name="Lbl_Title_Match">Bu bir eşleşmedir</string>
+  <string name="Lbl_YouAnd">Siz ve</string>
+  <string name="Lbl_SubTitle_Match">"birbirinizi beğendiniz. "Merhaba" deyin;"</string>
+  <string name="Lbl_NotNow">Şimdi Değil</string>
+  <string name="Lbl_StartChat">Sohbete Başlayın</string>
+  <!--===============================================================-->
+
+  <!--Dialog : SkipTutorial -->
+  <string name="Lbl_Title_Skip">"Haydi Kolay"</string>
+  <string name="Lbl_SubTitle_Skip">Bu kişiyi beğendiyseniz iletişimde kalın, Sağa Kaydırın</string>
+  <string name="Lbl_SkipTutorial">Öğreticiyi Atlayın</string>
+  <string name="Lbl_Next">Sonraki</string>
+  <string name="Lbl_Finish">Bitir</string>
+  <string name="Lbl_SubTitle_Finish">"Bu kişiyi beğenmediyseniz iletişimde kalmayın, Sola Kaydırın"</string>
+  <!--===============================================================-->
+
+  <!--message-->
+  <string name="Lbl_Messenger">Messenger</string>
+  <string name="Lbl_Message">Mesaj</string>
+  <string name="Lbl_Chats">Sohbetler</string>
+  <string name="Lbl_Write_your_message">Mesajınızı Yazın</string>
+  <string name="Lbl_Clear_chat">Sohbeti temizle</string>
+  <string name="Lbl_SendImageFile">Fotoğraf</string>
+  <string name="Lbl_SendStickerFile">Çıkartma</string>
+  <string name="Lbl_SendGifFile">Gif</string>
+  <string name="Lbl_SendMessage">Size bir mesaj gönderdi</string>
+  <!--===============================================================-->
+
+  <!--Empty State Inflater-->
+  <string name="Lbl_NoConnection_TitleText">İnternet Bağlantısı yok</string>
+  <string name="Lbl_NoConnection_DescriptionText">Sunucularımızla bir bağlantı kuramadık lütfen daha sonra tekrar deneyin.</string>
+  <string name="Lbl_NoConnection_Button">Tekrar Deneyin</string>
+
+  <string name="Lbl_NoSearchResult_TitleText">Üzgünüz sonuç yok!</string>
+  <string name="Lbl_NoSearchResult_DescriptionText">Arıyor olduğunuz anahtar kelimeyi bulamıyoruz belki küçük bir yazım hatası vardır?</string>
+  <string name="Lbl_NoSearchResult_Button">Gelişigüzel Ara</string>
+
+  <string name="Lbl_SomThingWentWrong_TitleText">Birşeyler Yanlış Gitti</string>
+  <string name="Lbl_SomThingWentWrong_DescriptionText">Sunu yanıtı</string>
+  <string name="Lbl_SomThingWentWrong_Button">Tekrar Deneyin</string>
+
+  <string name="Lbl_NoNotification_TitleText">Henüz Bildirim Yok</string>
+  <string name="Lbl_NoNotification_DescriptionText">Burada ilk aktivetinizi yaptığınızda görüntüleyeceğiz</string>
+
+  <string name="Lbl_NoMessage_TitleText">Başka Mesaj Yok</string>
+  <string name="Lbl_NoMessage_DescriptionText">Başka sohbet Yok</string>
+
+  <string name="Lbl_NoMoreUsers">Gösterecek başka kullanıcı yok</string>
+
+  <string name="Lbl_NoBlockUsers">Kullanıcı bulunmamaktadır</string>
+  <!--===============================================================-->
+
+  <!--Favorite-->
+  <string name="Lbl_UnFavorite">Favori Olmayan</string>
+  <string name="Lbl_Favorite">Favori</string>
+  <string name="Lbl_DisplayAllFavorite">Tüm favori kullanıcılarınızı görüntüleyin</string>
+  <string name="Lbl_AddedFavorite">Kullanıcı favorilere eklendi</string>
+  <string name="Lbl_RemovedFavorite">Kullanıcı favorilerden çıkarıldı</string>
+  <!--===============================================================-->
+
+  <!--Settings-->
+  <string name="Lbl_General">Genel</string>
+  <string name="Lbl_MyAccount">Hesabım</string>
+  <string name="Lbl_SocialLinks">Sosyal Bağlantılar</string>
+  <string name="Lbl_OnlineChat">"Aktif olduğunuzda gösterilsin"</string>
+  <string name="Lbl_Privacy">Gizlilik</string>
+  <string name="Lbl_PSearchEngines">Profilimi arama motorlarında göster?</string>
+  <string name="Lbl_PRandomUsers">Profilimi gelişi güzel aramalarda göster?</string>
+  <string name="Lbl_PFindMatchPage">Profilimi eş bul sayfasında göster?</string>
+  <string name="Lbl_Storage">Depolama</string>
+  <string name="Lbl_ClearCache">Önbelleği Temizle</string>
+  <string name="Lbl_Support">Destek</string>
+  <string name="Lbl_Help">Yardım</string>
+  <string name="Lbl_ReportProblem">Rapor Et</string>
+  <string name="Lbl_DeleteAccount">Hesabı Sil</string>
+  <string name="Lbl_Logout">Çıkış Yap</string>
+  <!--===============================================================-->
+
+  <!--Invite Friends-->
+  <string name="Lbl_InviteFriends">Arkadaşları Davet Et</string>
+  <string name="Lbl_ContactsPhone">İrtibat Telefonları</string>
+  <string name="Lbl_ShareThe">Paylaş</string>
+  <string name="Lbl_byInvitingFriends">bunu kullanan arkadaşlarını davet ederek</string>
+  <string name="Lbl_ShareTheLove">Sevgiyi Paylaş</string>
+  <string name="Lbl_TextInvite">Davet Yazısı</string>
+  <string name="Lbl_SocialMediaInvite">Sosyal Medya Daveti</string>
+  <string name="Lbl_InviteFriendsToTheApp">Arkadaşları uygulamaya davet et</string>
+  <!--===============================================================-->
+
+  <!--Social Links-->
+  <string name="Lbl_Facebook">Facebook</string>
+  <string name="Lbl_Twitter">Twitter</string>
+  <string name="Lbl_GooglePlus">Google Plus</string>
+  <string name="Lbl_Instagram">Instagram</string>
+  <string name="Lbl_LinkedIn">LinkedIn</string>
+  <string name="Lbl_Website">Website</string>
+  <!--===============================================================-->
+
+  <!--Block Users-->
+  <string name="Lbl_BlockedUsers">Enegellenmiş Kullanıcı</string>
+  <string name="Lbl_Block">Engelle</string>
+  <string name="Lbl_Blocked_successfully">başarılı bir şekilde engellendi</string>
+  <string name="Lbl_Unblock_successfully">başarılı bir şekilde engel kaldırıld</string>
+  <string name="Lbl_DoYouWantUnblock">Bu kullanıcının engelini kaldırmak ister misiniz?</string>
+  <!--===============================================================-->
+
+  <!--Delete Account-->
+  <string name="Lbl_Are_you_DeleteAccount">Hesabı silmek istediğinizden emin misiniz</string>
+  <string name="Lbl_Your_account_was_successfully_deleted">Hesabınız başarılı bir şekilde silindi</string>
+  <string name="Lbl_Error_Terms">Hükümler ve Koşulları onaylamadığınızdan dolayı giriş yapamazsınız</string>
+  <string name="Lbl_RemoveAccount">Hesabı kaldır</string>
+  <string name="Lbl_IWantToDelete1">Evet, silmek istiyorum</string>
+  <string name="Lbl_IWantToDelete2">kalıcı olarak</string>
+  <string name="Lbl_IWantToDelete3">Hesap.</string>
+  <!--===============================================================-->
+
+  <!--Increase Popularity-->
+  <string name="Lbl_IncreasePopularity">Popülerliği artır</string>
+  <string name="Lbl_YourPopularity">Popülerliğiniz</string>
+  <string name="Lbl_VeryLow">Çok düşük</string>
+  <string name="Lbl_Credits">Krediler</string>
+  <string name="Lbl_VisitsMain">5 dakikalığına daha fazla ziyaret alarak profilinizi öne çıkarın</string>
+  <string name="Lbl_VisitsCost">x10 Ziyaret alın</string>
+  <string name="Lbl_MatchesMain">4 dakikalığına daha sık gösterildi ve aynı zamanda arttı</string>
+  <string name="Lbl_MatchesCost">x3 Eşleşme alın</string>
+  <string name="Lbl_LikesMain">"5 dakikalığına herkese çevrimiçi olduğunuzu söyleyin ve sohbet etmek isteyen diğer kullanıcılar tarafından görülün"</string>
+  <string name="Lbl_LikesCost">x4 Beğeni alın</string>
+  <string name="Lbl_IncreaseStarted">Artırma başladı</string>
+  <!--===============================================================-->
+
+  <!--About App-->
+  <string name="Lbl_PrivacyPolicy">Gizlilik Politikası</string>
+  <string name="Lbl_TermsOfUse">Kullanım Koşulları</string>
+  <string name="Lbl_Version">Versiyon</string>
+  <string name="Lbl_Changelog">Değişim Günlüğü</string>
+  <string name="Lbl_RateOurApp">Uygulamamızı Derecelendirin</string>
+  <string name="Lbl_AboutUs">Hakkımızda</string>
+  <!--===============================================================-->
+
+  <!--Payment Card Details-->
+  <string name="Lbl_Expire">Sona Eren</string>
+  <string name="Lbl_CVV">CVV</string>
+  <string name="Lbl_YourName">İsminiz</string>
+  <string name="Lbl_CreditCardNumber">Kredi Kartı Numarası</string>
+  <string name="Lbl_NameOfCard">Kartın üzerindeki isim</string>
+  <string name="Lbl_OrUsing">veya kullanan</string>
+  <string name="Lbl_PleaseVerifyDataCard">Girilen verinin doğru olduğunudu lütfen onaylayın</string>
+  <string name="Lbl_ErrorConnectionSystemStripe">Elektronik ödeme sisteminde bir hata bulunmakta, Lütfen bakım bölümünü kontrol edin ve teşekkür ederiz</string>
+  <string name="Lbl_Canceled">İptal edildi</string>
+  <string name="Lbl_Invalid">Geçersiz</string>
+  <!--===============================================================-->
+
+  <!--Credit Window-->
+  <string name="Lbl_DescriptionCredits1">Profilinizi yükseltin</string>
+  <string name="Lbl_DescriptionCredits2">Mesajlarınızı ön plana çıkarın</string>
+  <string name="Lbl_DescriptionCredits3">Bir hediye gönderin</string>
+  <string name="Lbl_DescriptionCredits4">Kesfette 100 kat daha fazla görülün</string>
+  <string name="Lbl_DescriptionCredits5">Aramalarda kendinizi birnci sıraya koyun</string>
+  <string name="Lbl_DescriptionCredits6">Ek Çıkartmalar alın</string>
+  <string name="Lbl_DescriptionCredits7">Bir arkadaşlık için şansınızı ikiye katlayın</string>
+  <string name="Lbl_Your">Sizin</string>
+  <string name="Lbl_CreditsBalance">Kredi hesabı</string>
+  <!--===============================================================-->
+
+  <!--Upgrade Premium-->
+  <string name="Lbl_UpgradePremium">"Premium&apos;a yükseltin"</string>
+  <string name="Lbl_UpgradePremiumMainText">"Premium&apos;u aktive etmek sizin daha fazla insanla daha hızlı tanışmanıza yardımcı olacak"</string>
+  <string name="Lbl_SeeMoreStickers">Sohbette daha fazla çıkartma görün</string>
+  <string name="Lbl_ShowInPremium">Premium çubuğunda görün</string>
+  <string name="Lbl_SeeLikesNotifications">Beğeni bildirimlerini görün</string>
+  <string name="Lbl_GetDiscountBuyBoostMe">Beni yükselt satın aldığınızda indirim elde edin</string>
+  <string name="Lbl_DisplayFirstInFindMatches">Eşleşmeleri bulunda ilk sırada görüntüle</string>
+  <string name="Lbl_DisplayFirstInRandomUsers">Gelişi güzel kullanıcılarda en üstte görüntüle</string>
+  <string name="Lbl_AddMe">Beni ekle</string>
+
+  <string name="Lbl_Normal">Normal</string>
+  <string name="Lbl_Weekly">Haftalık</string>
+  <string name="Lbl_Monthly">Aylık</string>
+  <string name="Lbl_Yearly">Yıllık</string>
+  <string name="Lbl_Lifetime">Ömür Boyu</string>
+  <string name="Lbl_PayOnesAccessForEver">Sonsuza kadar erişim sağlamak için bir kere ödeme yapın</string>
+  <!--===============================================================-->
+
+  <!-- Verification Code Number-->
+  <string name="Lbl_Verification">Doğrulama</string>
+  <string name="Lbl_VerificationText">OTP cep telefonunuzla size gönderildi. Lütfen aşağıya girin</string>
+  <string name="Btn_Verify">Doğrula</string>
+  <string name="Lbl_CodeNotCorrect">Lütfen doğru kod numarasını yazın</string>
+  <string name="Lbl_TheNumber">Numara</string>
+  <string name="Lbl_ISNotValidNumber">geçerli bir telefon numarası değil</string>
+  <string name="Lbl_VerifyYourNumber">Numaranızı doğrulayın</string>
+  <string name="Lbl_PleaseEnterYourMobileNumber">Lütfen bir doğrulama kodu almak için telefon numaranızı girin. Servis sağlayıcı ücretleri olabilir</string>
+  <!--===============================================================-->
+  <!-- 1.2.2 Version-->
+  <string name="Lbl_ViewProfile">View Profile</string>
+
+  <!-- Verification Code Number-->
+  <string name="Lbl_VerificationText1">To log in, you need to verify your identity.</string>
+  <string name="Lbl_VerificationText2">We have sent you the confirmation code to your email address.</string>
+  <string name="Lbl_AddCode">Add code number</string>
+  <string name="Lbl_ResetPassword">Reset password</string>
+  <string name="Btn_ResendEmail">Resend Email</string>
+
+  <!--Call-->
+  <string name="Lbl_Select_contact">Select contact</string>
+  <string name="Lbl_Phone">Phone</string>
+  <string name="Lbl_Web">Web</string>
+  <string name="Lbl_Calling">Calling...</string>
+  <string name="Lbl_Waiting_to_connect">Waiting to connect...</string>
+  <string name="Lbl_Faild_to_connect">Failed to connect !!</string>
+  <string name="Lbl_No_respond_from_the_user">No response from the user</string>
+  <string name="Lbl_The_user_declinde_your_call">The user declined your call</string>
+  <string name="Lbl_Lost_his_connection">Lost his connection</string>
+  <string name="Lbl_Lost_Connection">Lost Connection</string>
+
+  <string name="Lbl_Calls">Calls</string>
+  <string name="Lbl_Empty_calls">No calls</string>
+  <string name="Lbl_Start_calls">Start a new call from your friends list, by pressing the button at the bottom of the screen.</string>
+
+  <string name="Lbl_Notification_of_Messages">Notification of Messages</string>
+
+  <string name="Lbl_Dismiss">Dismiss</string>
+  <string name="Lbl_Answer">Answer</string>
+  <string name="Lbl_Clear_call_log">Clear call log</string>
+  <string name="Lbl_Answered_call">Answered call</string>
+  <string name="Lbl_Missed_call">Missed call</string>
+  <string name="Lbl_Declined_call">Declined call</string>
+  <string name="Lbl_Waiting_for_answer">Waiting for answer</string>
+  <string name="Lbl_Need_Camera">Need Camera and Microphone permissions to call.</string>
+  <string name="Lbl_Room_Disconnected">User Disconnected.</string>
+  <string name="Lbl_Connected">Connected</string>
+  <string name="Lbl_User_Lost_Connection">User Lost Connection</string>
+  <string name="Lbl_Calling_video">Calling video</string>
+
+  <string name="Lbl_Call">Call</string>
+  <string name="Lbl_Select_Type_Call">Select Type Call ?</string>
+  <string name="Lbl_Voice_call">Voice call</string>
+  <string name="Lbl_Video_call">Video call</string>
+  <string name="Lbl_Muted_his_video">Muted his video</string>
+  <string name="Lbl_is_calling_you">is calling you</string>
+
+  <!-- 1.4 Version-->
+  <!--===============================================================-->
+  <string name="Lbl_loadMore">Load more</string>
+  <string name="press_again_exit">Press again to exit</string>
+  <string name="Lbl_CopyLink">Copy Link</string>
+
+  <string name="Lbl_BagOfCredits">Bag of Credits</string>
+  <string name="Lbl_BoxOfCredits">Box of Credits</string>
+  <string name="Lbl_ChestOfCredits">Chest of Credits</string>
+
+  <string name="Lbl_AreYouSureDeleteMessages">Are you sure you want to delete messages?</string>
+  <string name="Lbl_MessageCall1">"Can&apos;t Talk Now, What&apos;s Up?"</string>
+  <string name="Lbl_MessageCall2">"I&apos;ll Call You Right Back"</string>
+  <string name="Lbl_MessageCall3">"I&apos;ll Call You Later"</string>
+  <string name="Lbl_MessageCall4">"Can&apos;t talk now.call me later"</string>
+  <string name="Lbl_MessageCall5">Custom message..</string>
+
+  <string name="Lbl_Blogs">Blogs</string>
+  <string name="Lbl_ReadTheLatestArticles">Read the latest articles</string>
+  <string name="Lbl_NoMoreArticles">No more articles found</string>
+
+  <string name="Lbl_short_Note1">Please transfer the amount of</string>
+  <string name="Lbl_short_Note2">to this bank account to purchase</string>
+  <string name="Lbl_short_Note3">Plan Premium Membership</string>
+
+  <string name="Lbl_long_Note">In order to confirm the bank transfer, you will need to upload a receipt or take a screenshot of your transfer within 1 day from your payment date. If a bank transfer is made but no receipt is uploaded within this period, your order will be cancelled. We will verify and confirm your receipt within 3 working days from the date you upload it.</string>
+  <string name="Lbl_CreditCard">Credit Card</string>
+  <string name="Lbl_Basics">Basics</string>
+  <string name="Lbl_Background">Background</string>
+  <string name="Lbl_ToHeight">To Height</string>
+  <string name="Lbl_FromHeight">From Height</string>
+  <string name="Lbl_ErrorPleaseSelectImage">Error, please select image</string>
+
+</resources>

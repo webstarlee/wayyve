@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_call_chat_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#444">
+  <View
+    android:id="@+id/gradientPreloaderView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientVideoView" />
+	 <TextView
+            android:id="@+id/audiouserNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+		    android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+		    android:layout_marginTop="20dp"
+	    	android:text="Calling you ....."
+		    android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+        <ImageView
+            android:id="@+id/UserImageView"
+            android:scaleType="centerCrop"
+            android:layout_width="115dp"
+            android:layout_height="115dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:clickable="false"
+            android:src="@drawable/no_profile_image_circle"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+           
+            android:layout_gravity="center" />
+        <TextView
+            android:id="@+id/TypecallTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+           android:textColor="@color/white"
+			 android:text="Video Call"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="15dp" />
+        <TextView
+            android:id="@+id/UsernameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"
+            android:text="Elin Doughouz"
+			 android:textStyle="bold"
+			android:textColor="@color/white"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:gravity="fill_horizontal">
+       
+        <at.markushi.ui.CircleButton
+            android:id="@+id/end_call_button"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerInside"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/ic_call_end"
+            app:cb_color="#fffa3c4c"
+            app:cb_pressedRingWidth="7dp"
+            android:layout_weight="2" />
+       
+		<at.markushi.ui.CircleButton
+            android:id="@+id/accept_call_button"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_call_answer"
+            app:cb_color="#76BA1B"
+            app:cb_pressedRingWidth="6dp"
+            android:layout_weight="2" />
+
+		 <at.markushi.ui.CircleButton
+            android:id="@+id/message_call_button"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="0dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_call_reply"
+            app:cb_color="@color/secondaryText"
+            app:cb_pressedRingWidth="6dp"
+            android:layout_weight="2" />
+    </LinearLayout>
+</RelativeLayout>

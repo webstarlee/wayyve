@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--Head Page -->
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+        <TextView
+            android:id="@+id/IconBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="&gt;"
+            android:textSize="20sp"
+            android:textColor="#666"
+            android:layout_marginStart="25dp" />
+        <TextView
+            android:id="@+id/titlepage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_centerVertical="true"
+            android:text="@string/Lbl_Filter"
+            android:layout_centerHorizontal="true"
+            android:textSize="15sp"
+            android:textColor="#444"
+            android:layout_marginStart="61dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#efefef" />
+    </RelativeLayout>
+    <!--Location Section -->
+    <RelativeLayout
+        android:id="@+id/LayoutLocation"
+        android:paddingTop="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/IconLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="#"
+            android:textSize="20sp"
+            android:textColor="#777"
+            android:layout_marginStart="25dp" />
+        <TextView
+            android:id="@+id/LocationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_centerVertical="true"
+            android:text="@string/Lbl_Location"
+            android:textSize="14sp"
+            android:textColor="#444"
+            android:layout_marginStart="10dp"
+            android:layout_toEndOf="@+id/IconLocation" />
+        <TextView
+            android:id="@+id/LocationPlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/Lbl_NearBy"
+            android:layout_alignParentEnd="true"
+            android:textSize="12sp"
+            android:textColor="#444"
+            android:layout_marginEnd="40dp" />
+        <TextView
+            android:id="@+id/LocationMoreIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="&gt;"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp"
+            android:textColor="#4444"
+            android:layout_marginEnd="20dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:background="#efefef" />
+    </RelativeLayout>
+    <!--Gender Section -->
+    <RelativeLayout
+        android:paddingTop="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="77dp">
+        <TextView
+            android:id="@+id/IconFire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:textColor="#777"
+            android:layout_marginStart="23dp" />
+        <TextView
+            android:id="@+id/GenderTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/Lbl_WhoAreYouLookingFor"
+            android:textSize="14sp"
+            android:textColor="#444"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/IconFire" />
+        <Button
+            android:id="@+id/ManButton"
+            android:layout_below="@+id/GenderTextView"
+            android:background="@drawable/follow_button_profile_friends"
+            android:layout_height="26dp"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:text="@string/Lbl_Boys"
+            android:textColor="#444"
+            android:textSize="12sp"
+            android:clickable="true"
+            android:textAllCaps="true"
+            android:layout_marginEnd="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="11dp"
+            android:layout_centerInParent="true"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/GirlsButton"
+            android:layout_below="@+id/GenderTextView"
+            android:layout_toStartOf="@+id/ManButton"
+            android:background="@drawable/follow_button_profile_friends_pressed"
+            android:layout_height="26dp"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:text="@string/Lbl_Girls"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:clickable="true"
+            android:textAllCaps="true"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="11dp"
+            android:gravity="center" />
+        <Button
+            android:id="@+id/BothButton"
+            android:layout_below="@+id/GenderTextView"
+            android:layout_toEndOf="@+id/ManButton"
+            android:background="@drawable/follow_button_profile_friends"
+            android:layout_height="26dp"
+            android:layout_width="wrap_content"
+            android:padding="5dp"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:text="@string/Lbl_Both"
+            android:textColor="#444"
+            android:textSize="12sp"
+            android:clickable="true"
+            android:textAllCaps="true"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="11dp"
+            android:gravity="center" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:background="#efefef" />
+    </RelativeLayout>
+    <!--Age Section -->
+    <RelativeLayout
+        android:paddingTop="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+		android:minHeight="100dp"
+        android:layout_height="100dp">
+        <TextView
+            android:id="@+id/IconAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:textColor="#777"
+            android:layout_marginStart="23dp" />
+        <TextView
+            android:id="@+id/AgeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="1dp"
+            android:text="@string/Lbl_Age"
+            android:textSize="14sp"
+            android:textColor="#444"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/IconAge" />
+        <TextView
+            android:id="@+id/Agenumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:text="18 - 75"
+            android:layout_alignParentEnd="true"
+            android:textSize="12sp"
+            android:textColor="#444"
+            android:layout_marginEnd="30dp" />
+		
+		<QuickDate.Helpers.RangeSlider.RangeSliderControl
+			android:id="@+id/seekbar"
+			android:layout_below="@+id/AgeTextView"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="25dp"
+			android:layout_marginEnd="21dp"
+			android:layout_marginTop="0dp"
+			app:absoluteMinValue="18"
+			app:absoluteMaxValue="75"
+			android:layout_gravity="center"
+			app:valuesAboveThumbs="true"
+			app:materialUI="true" 
+			app:textAboveThumbsColor="@color/accent"
+			app:thumbShadowColor="@color/accent"
+			app:activeColor="@color/accent"
+			app:minThumbHidden="false"
+			app:maxThumbHidden="false"
+			app:showRangeLabels="true"
+			app:barHeight="2dp"  /> 
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:background="#efefef" />
+    </RelativeLayout>
+    <!--Gender Section -->
+    <RelativeLayout
+        android:paddingTop="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="40dp">
+        <TextView
+            android:id="@+id/Icononline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#"
+            android:layout_marginTop="0.2dp"
+            android:layout_alignParentStart="true"
+            android:textSize="20sp"
+            android:textColor="#777"
+            android:layout_marginStart="23dp" />
+        <TextView
+            android:id="@+id/OnlineTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="2dp"
+            android:text="@string/Lbl_OnlineNow"
+            android:textSize="14sp"
+            android:textColor="#444"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@+id/Icononline" />
+        <Switch
+            android:id="@+id/togglebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:layout_marginTop="0dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="28dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:background="#efefef" />
+    </RelativeLayout>
+    <!--Buttons Section -->
+    <RelativeLayout
+        android:paddingTop="5dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/Resetbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:text="@string/Lbl_ResetFilter"
+            android:textSize="12sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/accent"
+            android:textAllCaps="true"
+            android:layout_marginEnd="10dp" />
+        <Button
+            android:id="@+id/ApplyButton"
+            android:layout_below="@+id/Resetbutton"
+            android:background="@drawable/follow_button_profile_friends_pressed"
+            android:layout_height="36dp"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:text="@string/Lbl_ApplyFilter"
+            android:textColor="#fff"
+            android:textSize="12sp"
+            android:clickable="true"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="19dp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp" />
+		<com.google.android.gms.ads.AdView
+				android:id="@+id/adView"
+                app:adSize="BANNER"
+                app:adUnitId="@string/banner_ad_unit_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true" /> 
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp" /> 
+    </RelativeLayout> 
+</LinearLayout>

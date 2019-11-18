@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:gravity="right"
+    android:layout_margin="0dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:paddingRight="3dp">
+    <!--<com.github.library.bubbleview.BubbleTextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        app:arrowWidth="8dp"
+        app:angle="11dp"
+        app:arrowHeight="10dp"
+        app:arrowPosition="14dp"
+        app:arrowLocation="right"
+        app:bubbleColor="?attr/colorPrimary"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginLeft="6dp" />-->
+    <com.github.library.bubbleview.BubbleLinearLayout
+        android:orientation="vertical"
+        app:arrowWidth="10dp"
+        app:angle="12dp"
+        app:arrowHeight="10dp"
+        app:arrowPosition="12dp"
+        app:arrowLocation="right"
+        android:layout_marginLeft="13dp"
+        app:bubbleColor="?attr/colorPrimary"
+        app:arrowCenter="false"
+        android:id="@+id/bubble_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.luseen.autolinklibrary.AutoLinkTextView
+                android:id="@+id/active"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textIsSelectable="true"
+                android:layout_weight="1" />
+            <TextView
+                android:layout_height="match_parent"
+                android:id="@+id/time"
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                android:gravity="bottom"
+                android:layout_margin="5dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="wrap_content"
+                android:layout_weight="0"
+                android:translationX="-15dp"
+                android:paddingBottom="2dp" />
+        </LinearLayout>
+    </com.github.library.bubbleview.BubbleLinearLayout>
+</LinearLayout>

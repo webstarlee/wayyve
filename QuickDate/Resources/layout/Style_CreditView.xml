@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_weight="1"
+    android:layout_width="135dp"
+    android:layout_height="160dp"
+    android:layout_marginEnd="0dp"
+    android:paddingTop="4dp"
+    android:background="@null"
+    android:paddingBottom="4dp"
+    android:layout_marginStart="6dp"
+    android:layout_marginBottom="5dp">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardview"
+        android:layout_gravity="fill"
+        android:background="@null"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#ffff"
+        app:cardCornerRadius="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_margin="2dp"
+        app:cardElevation="2dp">
+        <RelativeLayout
+            android:id="@+id/background"
+            android:layout_weight="1"
+            android:background="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/headtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_marginTop="10dp"
+                android:textSize="16sp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#444" />
+            <TextView
+                android:id="@+id/coincount"
+                android:layout_below="@+id/headtitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_marginTop="5dp"
+                android:textSize="13dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#444" />
+            <ImageView
+                android:id="@+id/creditImage"
+                android:layout_below="@+id/coincount"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/image_coin"
+				android:scaleType="centerCrop"
+                android:layout_centerHorizontal="true" />
+            <View
+                android:id="@+id/line"
+                android:layout_marginEnd="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_below="@+id/creditImage"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#efefef" />
+            <TextView
+                android:id="@+id/lasttext"
+                android:layout_below="@+id/line"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp"
+                android:gravity="center"
+                android:layout_marginTop="2dp"
+                android:textSize="13dp"
+                android:background="@null"
+                android:layout_centerHorizontal="true"
+                android:textColor="#444" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

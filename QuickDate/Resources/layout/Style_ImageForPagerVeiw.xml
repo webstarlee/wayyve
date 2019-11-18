@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/imagelayout"
+        android:paddingTop="3dp"
+        android:layout_marginTop="2dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#444"
+            android:layout_marginTop="12dp"
+            android:textStyle="bold"
+            android:text="()"
+            android:layout_centerHorizontal="true"
+            android:textSize="80sp" />
+        <ImageView
+            android:id="@+id/Iconimage2"
+            android:layout_width="35dp"
+            android:tint="#ffff"
+            android:layout_marginTop="33dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/viewpager_sticker"
+            android:layout_marginEnd="0dp"
+            android:layout_marginStart="40dp"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#444"
+        android:layout_marginTop="13dp"
+        android:text="@string/Lbl_DescriptionCredits1"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:gravity="center"
+        android:textSize="16sp" />
+</LinearLayout>

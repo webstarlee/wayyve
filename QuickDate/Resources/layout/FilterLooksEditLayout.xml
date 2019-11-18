@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.NestedScrollView
+            android:id="@+id/nested_scroll_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f8f8f8"
+            android:clipToPadding="false"
+            android:scrollbars="none"
+            android:scrollingCache="true"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+            <LinearLayout
+                android:id="@+id/lyt_form"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="0dp">
+                <!--Body Section -->
+                <LinearLayout
+                    android:id="@+id/LayoutBody"
+                    android:paddingTop="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="40dp">
+                    <TextView
+                        android:id="@+id/IconBody"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="#"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="20sp"
+                        android:textColor="#777"
+                        android:layout_marginStart="5dp" />
+                    <EditText
+                        android:id="@+id/BodyEditText"
+                        style="@style/EditTextNormalStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:hint="@string/Lbl_Body"
+                        android:textSize="15sp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/EditTextStyleOne"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="3dp" />
+                </LinearLayout>
+               
+                <!--Height Section --> 
+                <LinearLayout
+                    android:id="@+id/LayoutHeight"
+                    android:paddingTop="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100"
+                    android:layout_marginEnd="5dp"
+                    android:layout_height="40dp">
+                    <TextView
+                        android:id="@+id/IconHeight"
+                        android:layout_width="40dp"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="#"
+                        android:gravity="center"
+                        android:layout_gravity="center"
+                        android:textSize="20sp"
+                        android:textColor="#777"
+                        android:layout_marginStart="5dp" />
+                    <EditText
+                        android:id="@+id/FromHeightEditText"
+                        style="@style/EditTextNormalStyle"
+                        android:layout_width="match_parent"
+                        android:layout_weight="50"
+                        android:ems="10"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/EditTextStyleOne"
+                        android:layout_alignParentEnd="true"
+                        android:hint="@string/Lbl_FromHeight"
+                        android:textSize="15sp"
+                        android:maxLines="1"
+                        android:inputType="textEmailAddress"
+                        android:layout_marginStart="3dp" />
+                    <EditText
+                        android:id="@+id/ToHeightEditText"
+                        style="@style/EditTextNormalStyle"
+                        android:layout_width="match_parent"
+                        android:layout_weight="50"
+                        android:ems="10"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/EditTextStyleOne"
+                        android:layout_alignParentEnd="true"
+                        android:hint="@string/Lbl_ToHeight"
+                        android:textSize="15sp"
+                        android:maxLines="1"
+                        android:inputType="textEmailAddress"
+                        android:layout_marginStart="3dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

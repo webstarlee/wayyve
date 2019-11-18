@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!-- top toolbar -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relLayout1"></RelativeLayout>
+        <!-- Middle section (body) -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relLayout2"
+            android:layout_below="@+id/relLayout1">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <FrameLayout
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"></FrameLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <!-- bottom navigation -->
+    <com.gigamole.navigationtabbar.ntb.NavigationTabBar
+        android:id="@+id/ntb_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="bottom"
+        app:ntb_badge_size="12sp"
+        app:ntb_badge_bg_color="@color/primary"
+        app:ntb_badge_gravity="top"
+        app:ntb_badge_position="center"
+        app:ntb_badge_title_color="#ffffffff"
+        app:ntb_badge_use_typeface="true"
+        app:ntb_badged="true"
+        app:ntb_bg_color="#ffffffff"
+        app:ntb_active_color="@color/accent"
+        app:ntb_inactive_color="#444"
+        android:layout_alignParentBottom="true" />
+</android.support.design.widget.CoordinatorLayout>
